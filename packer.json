@@ -39,6 +39,6 @@
   {
   "type": "chef-solo",
   "cookbook_paths": ["Cookbooks"],
-  "run_list": ["python_cookbook::default"]
+  "run_list": ["jobs_watch::default"]
   }]
 }
