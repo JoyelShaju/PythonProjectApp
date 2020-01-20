@@ -44,4 +44,8 @@ are no mistakes and that the coobook will successfully provision correctly. If t
 developer branch with the master branch. After this, whenever a new AMI would be created and tested, it would use the berks vendor 
 to take the cookbooks from the cookbooks github repository which would be the latest version of it.
 
+## Diargams
+If you look at the slide1 file, you can see a visual representation of the two pipelines that were created for this project.
+
+
 
