@@ -43,3 +43,5 @@ into the developer branch, it runs the chef exec rspec (unit tests) and the kitc
 are no mistakes and that the coobook will successfully provision correctly. If these tests were to pass, it would then merge the 
 developer branch with the master branch. After this, whenever a new AMI would be created and tested, it would use the berks vendor 
 to take the cookbooks from the cookbooks github repository which would be the latest version of it.
+
+
