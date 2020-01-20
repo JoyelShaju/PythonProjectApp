@@ -1,6 +1,6 @@
-#Python Developer Environment Project
+# Python Developer Environment Project
 
-##Creating Development environment
+## Creating Development environment
 
 To create the development environment for the python application, the first step I took was to create a Virtual Machine using Vagrant
 which I then provisioned manually after looking at what the requirements were. To allow the application to work, I had to run the 
@@ -13,7 +13,7 @@ following shell commands:
 The commands above when run will update and upgrade the package lists, then go on to install the libraries required and finally will 
 create the Downloads folder which his required for the app to generate the ItJobsWatchTop30.csv successfully.
 
-##Provisioning with Cookbooks (CHEF)
+## Provisioning with Cookbooks (CHEF)
 
 For the next step, I had to automate the provision shell script which was carried out to provision the 
 Ubuntu/Xenail64 machine above but this time, using Chef and Cookbooks. To move forward with this task, I had to first create a folder 
@@ -30,7 +30,7 @@ put the requirements.txt into the cookbook, runs tests, which came back as a suc
 After running all the tests, I ran the “vagrant up” command which auto-provisioned the VM in which I then tried running the app, which 
 it did. This meant that the VM was provisioned correctly and that I could move onto the next stage. 
 
-Jenkins (Pipelines)
+## Jenkins (Pipelines)
 
 The next step of the project was to use Jenkin as a slave to listen to any changes that were commited into the developer branch on 
 github (app). This was done by using webhooks. If any commits were pushed onto the developer branch on github, Jenkins then runs all 
